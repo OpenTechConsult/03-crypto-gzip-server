@@ -1,0 +1,37 @@
+{
+  "name": "03-crypto-gzip-server",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Demonstrating composability by adding an encryption layer to the 02-gzip-server application",
+  "main": "crypto-gzip-send.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenTechConsult/03-crypto-gzip-server.git"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "engineStrict": true,
+  "keywords": [
+    "gzip",
+    "compress",
+    "gzip-server",
+    "crypto",
+    "node",
+    "stream"
+  ],
+  "author": "Elom Atsou Agboka <opentech.consult@gmail.com> (https://github.com/OpenTechConsult)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OpenTechConsult/03-crypto-gzip-server/issues"
+  },
+  "homepage": "https://github.com/OpenTechConsult/03-crypto-gzip-server#readme",
+  "dependencies": {
+    "mkdirp": "^1.0.4",
+    "request": "^2.88.2",
+    "slug": "^6.0.0"
+  }
+}
